@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'uptime; whoami; uname -a'
+        sh 'uptime; whoami; uname -m'
       }
     }
 
